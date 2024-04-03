@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #BED7DC;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+
+.container {
+    background-color: #B3C8CF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    padding: 10vh 5vh 10vh 5vh;
+    border-radius: 4%;
+}
+
+#Text-Input {
+    width: 80%;
+    height: 20vh;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.Input-Button,
+.Delete-Button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.Input-Button:hover{
+    background-color: grey;
+    text-decoration: underline;
+}
+.Delete-Button:hover{
+    background-color: grey;
+    text-decoration: underline;
+}
+
+
+.Input-Button {
+    margin-top: 20px; 
+}
+
+.List-Item{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.DeleteButton{
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    width: 20%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: red;
+}
+.Succes{
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    width: 20%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: green;
+
+}
